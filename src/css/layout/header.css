@@ -1,0 +1,20 @@
+.Main__header{
+    width: 375px;
+    height: 400px;
+    background: linear-gradient(rgba(172, 203, 134, 1),rgba(223, 144, 144, 1));
+    text-align: center;
+  
+}
+.Main__fondu{
+    width: 375px;
+    height: 319px;
+    position: relative;
+    z-index: -1;
+}
+
+.Main__intro{
+    text-align: left;
+}
+.Main__titre{
+    font-family: var(--font-cursive);
+}

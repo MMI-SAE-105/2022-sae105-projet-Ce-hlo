@@ -1,7 +1,13 @@
+@import"vendors/normalize.css";
+@import"utils/variable.css";
 @import"base/main.css";
 @import"base/media.css";
-@import"components/menu.css";
+
 @import"layout/footer.css";
 @import"layout/header.css";
-@import"utils/variable.css";
-@import"vendors/normalize.css";
+
+@import"components/menu.css";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
