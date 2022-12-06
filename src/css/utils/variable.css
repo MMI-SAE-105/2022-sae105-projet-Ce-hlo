@@ -1,0 +1,15 @@
+/* Color styles */
+:root{
+--couleur-dominante: rgba(217, 208, 193, 1);
+--couleur-tonique-1: rgba(212, 189, 158, 1);
+--couleur-tonique-2: rgba(172, 203, 134, 1);
+--couleur-accompagnement: rgba(223, 144, 144, 1);
+
+/* Text-size styles */
+/* base size: texte (14px) */
+--titre: 2.86rem;
+--sous-titre: 1.79rem;
+--texte: 1rem;
+--citation: 1rem;
+--button: 1.43rem;
+}
