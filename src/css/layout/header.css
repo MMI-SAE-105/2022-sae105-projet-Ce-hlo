@@ -1,48 +1,50 @@
 .Main__header{
-    width: 375px;
-    height: 400px;
+    width: 100%;
+    height: 550px;
     background: linear-gradient(rgba(172, 203, 134, 1),rgba(223, 144, 144, 1));
     text-align: center;
   
 }
 .Main__fondu{
-    width: 375px;
-    height: 319px;
+    bottom: 230px;
+    width: 100%;
+    height: 700px;
     position: relative;
     z-index: -1;
 }
 
 .Main__intro{
+    padding: 15px;
     text-align: left;
     font-family: var(--font-sans-serif-2);
 }
 .Main__titre{
+    padding: 50px;
     font-family: var(--font-cursive);
     text-size-adjust: var(--texte);
 }
 
 .Main__soustitre{
+    padding: 20px;
     font-family:var(--font-sans-serif) ;
     text-size-adjust: var(--sous-titre);
+
 
 }
 .Main__lang{
     position: absolute;
-    top: ;
-    left: ;
+    top: 320px; 
+    left: 10px;
 
 }
 
 .Main__menu{
     position: absolute;
-    top: ;
-    right: ;
+    top: 300px;
+    right: 15px;
 }
 
 .Main__descendre{
       position: absolute;
-      top: 100px;
-      left: 0px;
-
-
+      top: 120px;
 }
