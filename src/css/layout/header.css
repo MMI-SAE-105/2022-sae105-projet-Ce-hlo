@@ -14,7 +14,35 @@
 
 .Main__intro{
     text-align: left;
+    font-family: var(--font-sans-serif-2);
 }
 .Main__titre{
     font-family: var(--font-cursive);
+    text-size-adjust: var(--texte);
+}
+
+.Main__soustitre{
+    font-family:var(--font-sans-serif) ;
+    text-size-adjust: var(--sous-titre);
+
+}
+.Main__lang{
+    position: absolute;
+    top: ;
+    left: ;
+
+}
+
+.Main__menu{
+    position: absolute;
+    top: ;
+    right: ;
+}
+
+.Main__descendre{
+      position: absolute;
+      top: 100px;
+      left: 0px;
+
+
 }
