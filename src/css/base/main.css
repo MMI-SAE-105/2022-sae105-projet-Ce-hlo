@@ -1,26 +1,57 @@
 
 body {
    background: var(--couleur-dominante);
-}
-
-
-
-.Main__livre{
-   display: block;
-   margin-top: 320px;
-
+   margin: 0;
+   padding: 0;
 }
 a:-webkit-any-link {
    cursor: pointer;
-   color:black;
+   color: black;
 }
 
+
+
+.Main__intro {
+   padding: 15px;
+   text-align: left;
+   font-family: var(--font-sans-serif-2);
+}
+
+.Main__titre {
+   padding: 50px;
+   font-family: var(--font-cursive);
+   text-size-adjust: var(--texte);
+}
+
+.Main__soustitre {
+   padding: 20px;
+   font-family: var(--font-sans-serif);
+   text-size-adjust: var(--sous-titre);
+
+
+}
+.Main__livre{
+   display: block;
+   position: relative;
+   top: -350px;
+}
 .article__titre{
    background-color: var(--couleur-tonique-2);
    width: 100%;
    margin: 0;
    padding: 5%;
+   position: relative;
+   top: -360px;
 }
+.Main__description{
+   position: relative;
+   top: -360px;
+}
+.Main__lien{
+      position: relative;
+      top: -360px;
+}
+
 
 
 
@@ -42,7 +73,5 @@ p{
 .vert{
    background-color: var(--couleur-tonique-2);
    width: 100%;
-   margin: 0;
-   padding: 4%;
    border-top-right-radius: 80px;
 }

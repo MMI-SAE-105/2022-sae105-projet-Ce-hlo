@@ -9,7 +9,15 @@
     </head>
     <body>
         <header class="Header">
-            <img src="public/icone/fermer-le-menu.svg" alt="fermeture menu">
+            <button>
+                <img class="Header__fermer" src="public/icone/fermer-le-menu.svg" alt="fermeture menu">
+            </button>
+            <div class="Header__fondvert"><button>
+                <img class="Header__lang" src="public/icone/image10.svg" alt="lang changement">
+            </button>
+            <button>
+                <img class="Header__ouvert" src="public/icone/menu-open.svg" alt="Menu ouverture">
+            </button></div>
             <nav class="Header__menu">
                 <ul>
                     <li class=" Header__menu__item"><a href="L_héritage_d_Arachné.html">L'héritage d'Arachné</a></li>
@@ -21,15 +29,14 @@
                     <li class=" Header__menu__item"><a href="Contact.html">Contact</a></li>
                     <li class=" Header__menu__item"><a href="Autre_Projets.html">Autre projets</a></li>
                     <li class=" Header__menu__item"><a href="Glossaire.html">Glossaire</a><li>
-                    
                 </ul>
             </nav>
+         
         </header>
         <main class="Main">
             <section class="Main__header">
                 <h1 class="Main__titre">Dicta</h1>
-                <img class="Main__lang" src="public/icone/image10.svg" alt="lang changement">
-                <a class="Main__menu" href=""><img src="public/icone/menu-open.svg" alt="Menu ouverture"></a>
+               
                 <img class=">Main__descendre" src="public/icone/descendre.svg" alt="descendre">
                 <h2 class="Main__soustitre">Bienvenue sur Dicta</h3>
                 <p class="Main__intro">Un site qui aides les personnes à se connaitre et
@@ -39,24 +46,24 @@
                     ou que moi mmême je pourrais relire plus tard afin de 
                     revenir au source et de faire un pas en arriere dans 
                     ma mémoire.</p>
-                    <img class="Main__fondu" src="public/img/Rectangle_27.svg" alt="fondu">
             </section>
+            <img class="Main__fondu" src="public/img/Rectangle_27.svg" alt="fondu">
             <section class="Main__résumé">
                 <article class="article">
                     <img class="Main__livre" src="public/img/héritage_arachnée.jpg" alt="L'héritage d'Arachné">
                     <h3 class="article__titre">Un livre qui m'a fait du bien</h3>
-                    <p>Présenter un livre ? En quoi cela nous aide dans 
+                    <p class="Main__description">Présenter un livre ? En quoi cela nous aide dans 
                         notre devellopement personnel ? Lit-on de 
                         maniere machinale, je ne pense pas, on lit car le 
                         livre nous intéresse, on y porte un intérêt 
                         particulier, on y prend du plaisir cela nous fait du 
                         bien et nous détend.</p>
-                        <a href="L_héritage_d_Arachné.html">L'héritage d'Arachné</a>
+                        <a class="Main__lien" href="L_héritage_d_Arachné.html">L'héritage d'Arachné</a>
                 </article>
                 <article class="article">
-                    <img src="public/img/enfants _loup1.jpg" alt="Les enfants loup">
-                    <h3>Un film qui m'émeut</h3>
-                    <p> Les enfants loups, c’est un film qui a été réalisé 
+                    <img class="Main__livre" src="public/img/enfants _loup1.jpg" alt="Les enfants loup">
+                    <h3 class="article__titre" >Un film qui m'émeut</h3>
+                    <p class="Main__description"> Les enfants loups, c’est un film qui a été réalisé 
                         par Mamoru Hosada en 2012, il s’agit d’un film d’animation 
                         japonaise qui parle de famille et des difficultés à 
                         s’intégré quand l’on est différent. C’est un film qui
@@ -64,43 +71,43 @@
                         en tous cas ce que j’en retient c’est 
                         qu’il faut accepter les différences que ce soit les nôtres
                         et celle des autres.  </p>
-                        <a href="Les_enfants_loup1.html">Les enfants loup</a>
+                        <a class="Main__lien" href="Les_enfants_loup1.html">Les enfants loup</a>
                 </article>
                 <article class="article">
-                    <img src="public/img/musique.jpg" alt="Merry go round">
-                    <h3>Une musqiue imporante qui me fait pleurer</h3>
-                    <p>A mon sens, c’est important de vous parler de musique car
+                    <img class="Main__livre" src="public/img/musique.jpg" alt="Merry go round">
+                    <h3 class="article__titre" >Une musqiue imporante qui me fait pleurer</h3>
+                    <p class="Main__description">A mon sens, c’est important de vous parler de musique car
                          on le sait bien la musique fait partie intégrante de notre vie. 
                          Il existe diffèrent genres musicaux que ce soit de la pop, 
                          de l’électro ou encore les musiques de film, bien sûr 
                          je ne vais pas tous les présenté car ils sont nombreux et variés.</p>
-                    <a href="Merry_go_round.html">Merry go round</a>  
+                    <a class="Main__lien" href="Merry_go_round.html">Merry go round</a>  
                 </article>
                 <article class="article">
-                    <h3>Un regret à améliorer</h3>
-                    <p>Les regrets, on en a tous, ils peuvent être personnelle 
+                    <h3 class="article__titre" >Un regret à améliorer</h3>
+                    <p class="Main__description">Les regrets, on en a tous, ils peuvent être personnelle 
                        ou sinon cela peut être des regrets sur la société, 
                        l’environnement dans lequel on vit.</p>
-                    <a href="Le_jugement_et_les_préavis.html">Les jugements et les préavis</a>
+                    <a class="Main__lien" href="Le_jugement_et_les_préavis.html">Les jugements et les préavis</a>
                 </article>
                 <article class="article">
-                    <img src="public/img/temple.jpg" alt="Temple de bambou, Kyoto">
-                    <h3>Un lieu à visiter</h3>
-                    <p>Un jour dans ma vie future j’aimerais aller dans les pays asiatiques
+                    <img class="Main__livre" src="public/img/temple.jpg" alt="Temple de bambou, Kyoto">
+                    <h3 class="article__titre" >Un lieu à visiter</h3>
+                    <p class="Main__description">Un jour dans ma vie future j’aimerais aller dans les pays asiatiques
                         tels que la Corée, le Vietnam ou encore le Japon, 
                         faire un road trip et me créer des souvenirs. Je pense que c’est
                         important de se mettre des objectifs dans la vie afin d’avancer
                         et même si on commet des erreurs ce n’est pas grave .</p>
-                    <a href="Temple_de_bambou_Kyoto.html">Temple de bambou, Kyoto</a>
+                    <a class="Main__lien" href="Temple_de_bambou_Kyoto.html">Temple de bambou, Kyoto</a>
                 </article>
                 <article class="article">
-                    <img src="public/img/vert.jpg" alt="Un monde vert et plus sain">
-                    <h3>Une cause à défendre</h3>
-                    <p>L’espoir à mon sens c’est comme un objectif de vie, 
+                    <img  class="Main__livre" src="public/img/vert.jpg" alt="Un monde vert et plus sain">
+                    <h3 class="article__titre" >Une cause à défendre</h3>
+                    <p class="Main__description">L’espoir à mon sens c’est comme un objectif de vie, 
                         quelque chose pour lequel on veut se battre et espérer. 
                         Moi je crois en un monde qui à l’avenir souffrira moins, 
                         un monde ou à la nature reprend ses droits.</p>
-                    <a href="Un_monde_vert_et_plus_sain.html">UN monde vert et plus sain</a>
+                    <a class="Main__lien" href="Un_monde_vert_et_plus_sain.html">UN monde vert et plus sain</a>
                 </article>
             </section>
         </main>

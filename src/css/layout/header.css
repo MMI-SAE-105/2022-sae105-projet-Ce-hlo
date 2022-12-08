@@ -12,41 +12,13 @@
     width: 100%;
     height: 700px;
     position: relative;
-    margin-top: 25px;
-}
-
-.Main__intro{
-    padding: 15px;
-    text-align: left;
-    font-family: var(--font-sans-serif-2);
-}
-.Main__titre{
-    padding: 50px;
-    font-family: var(--font-cursive);
-    text-size-adjust: var(--texte);
-}
-
-.Main__soustitre{
-    padding: 20px;
-    font-family:var(--font-sans-serif) ;
-    text-size-adjust: var(--sous-titre);
-
-
-}
-.Main__lang{
-    position: absolute;
-    top: 320px; 
-    left: 10px;
-
-}
-
-.Main__menu{
-    position: absolute;
-    top: 300px;
-    right: 15px;
+   
 }
 
 .Main__descendre{
       position: absolute;
       top: 120px;
+}
+.Header__fondvert{
+    background-color: var(--couleur-tonique-2);
 }
