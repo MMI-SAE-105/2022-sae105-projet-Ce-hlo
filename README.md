@@ -1,5 +1,5 @@
-- NOM : 
-- PRÉNOM :
+- NOM : Bizet
+- PRÉNOM : Chloé
 - URL du site :
 - URL FIGMA :
 

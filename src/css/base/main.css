@@ -37,6 +37,7 @@ a:-webkit-any-link {
 }
 .article__titre{
    background-color: var(--couleur-tonique-2);
+   border-radius: 10px;
    width: 100%;
    margin: 0;
    padding: 5%;
