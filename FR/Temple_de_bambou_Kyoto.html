@@ -4,33 +4,41 @@
         <meta charset="utf-8"/>
         <meta name="viewport"
         content="width=device-width, inittial-scale=1.0"/>
+        <link rel="stylesheet" href="../src/css/style.css">
         <title>Dicta</title>
     </head>
     <body>
-        <header>
-            <img src="projet s1/public/icone/image10.jpg" alt="lang changement">
-            <img src="projet s1/public/icone/fermer_le_menu.jpg" alt="fermeture menu">
-            <a href=""><img src="projet s1/public/icone/menu-open.jpg" alt="Menu ouverture"></a>
-            <h2>Menu</h2>
-            <nav>
-                <ul>
-                <li><a href="L_héritage_d_Arachné.html">L'héritage d'Arachné</a></li>
-                <li><a href="Merry_go_round.html">Merry go round</a></li>
-                <li><a href="Les_enfants_loup.html">Les enfants loup</a></li>
-                <li><a href="Le_jugement_et_les_préavis.html">Le jugment et les préavis</a></li>
-                <li><a href="Temple_de_bambou_Kyoto.html">Temple de bambou, Kyoto</a></li>
-                <li><a href="Un_monde_vert_et_plus_sain.html">Un monde vert et plus sain</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <li><a href="Autre_Projets.html">Autre projets</a></li>
-                <li><a href="Glossaire.html">Glossaire</a>
-               
-                </ul>
-            </nav>
+    <header class="Header">
+        <button>
+            <img class="Header__fermer" src="../public/icone/fermer-le-menu.svg" alt="fermeture menu">
+        </button>
+        <div class="Header__fondvert"><button>
+                <img class="Header__lang" src="../public/icone/image10.svg" alt="lang changement">
+            </button>
+            <button>
+                <img class="Header__ouvert" src="../public/icone/menu-open.svg" alt="Menu ouverture">
+            </button>
+        </div>
+        <nav class="Header__menu">
+            <ul>
+                <li class=" Header__menu__item"><a href="L_héritage_d_Arachné.html">L'héritage d'Arachné</a></li>
+                <li class=" Header__menu__item"><a href="Merry_go_round.html">Merry go round</a></li>
+                <li class=" Header__menu__item"><a href="Les_enfants_loup.html">Les enfants loup</a></li>
+                <li class=" Header__menu__item"><a href="Le_jugement_et_les_préavis.html">Le jugment et les préavis</a></li>
+                <li class=" Header__menu__item"><a href="Temple_de_bambou_Kyoto.html">Temple de bambou, Kyoto</a></li>
+                <li class=" Header__menu__item"><a href="Un_monde_vert_et_plus_sain.html">Un monde vert et plus sain</a>
+                </li>
+                <li class=" Header__menu__item"><a href="Contact.html">Contact</a></li>
+                <li class=" Header__menu__item"><a href="Autre_Projets.html">Autre projets</a></li>
+                <li class=" Header__menu__item"><a href="Glossaire.html">Glossaire</a>
+                <li>
+            </ul>
+        </nav>
         </header>
         <main>
             <section>
                 <h1>Dicta</h1>
-                <img src="icone/descendre.jpg" alt="descendre">
+                <img src="../public/icone/descendre.svg" alt="descendre">
                 <h3>Un lieu à visiter</h3>
                 <p> Un jour dans ma vie future j’aimerais aller dans les pays asiatiques tels que la Corée, 
                     le Vietnam ou encore le Japon, faire un road trip et me créer des souvenirs. 
@@ -38,9 +46,10 @@
                     et même si on commet des erreurs ce n’est pas grave . 
                 <em> “ L’homme apprend de ses erreurs et l’homme plus sage apprend des erreurs des autres”. </em>Confucius</p>
             </section>
+            <img class="Main__fondu" src="../public/img/Rectangle_27.svg" alt="fondu">
             <section>
                 <article>
-                    <img src="img/temple.jpg" alt="Temple de bambou, Kyoto">
+                    <img src="../public/img/temple.jpg" alt="Temple de bambou, Kyoto">
                     <h3>Moral du voyage</h3>
                     <p>Le voyage nous fait découvrir le monde, de nouvelles cultures et
                         nous donnes une bonne ouverture d’esprit. Lors d’un voyage on peut
@@ -55,42 +64,45 @@
                         il est au Japon et c’est un pays que j’aimerais visiter plus tard avec ma famille ou
                         des amis mais aussi car j’ai lu en cette année 2022 un manga qui s’appelle qui Jizo 
                         et il m’a énormément plus et appris sur le sujet des jizo. </p>
-                    <img src="img/image19.jpg" alt="Jizos">
+                    <img src="../public/img/image19.jpg" alt="Jizos">
                     <p>Les Jizos sont des statues en pierre qui sont les gardiens et les protecteurs 
                         des faibles plus particulièrement les enfants morts à la naissance, ceux qui sont morts jeunes et les voyageurs. </p>
                     <p>Ce manga raconte l’histoire d’un jeune garçon qui se retrouve seul dans un parc,
                         il va rencontrer un autre petit garçon qui se présente sous le nom de jizo 
                         mais sans dire qui il est vraiment. Tout au long de l’histoire,
                         on suit l’aventure des deux garçons qui essaye de fuir une femme qui attrape les enfants perdus.</p>
-                    <img src="img/image18.jpg" alt="Manga Jizo">
+                    <img src="../public/img/image18.jpg" alt="Manga Jizo">
                     <a href="https://www.babelio.com/livres/Tan-Jizo/1264365">En savoir plus sur le manga</a>
                 </article>
                 <a href="Frise_chronologique.html">Lieux similaires à ce Temple</a>
             </section>
         </main>
-        <footer>
+        <img class="Footer__fondu" src="../public/img/Rectangle-25.svg" alt="fondu">
+        <footer class="Footer">
             <h2>Menu</h2>
-            <nav>
+            <nav class="Footer__menu">
                 <ul>
-                  
-                    <li><a href="Glossaire.html"> Glossaire</a><li>
-                    <li><a href="Autre_Projets.html">Autre projets</a></li>
-                </ul> 
+        
+                    <li class="Footer__menu__item"><a href="Glossaire.html"> Glossaire</a>
+                    <li>
+                    <li class="Footer__menu__item"><a href="Autre_Projets.html">Autre projets</a></li>
+                </ul>
             </nav>
             <h2>Contact</h2>
             <p>Chloé Bizet Groupe A1</p>
-            <nav>
+            <nav class="Footer__menu">
                 <ul>
-                    <li><a href="mailto:chloe.bizet@edu.univ-fcomte.fr">chloe.bizet@edu.univ-fcomte.fr</a></li>
-                    <li><a href="Formulaire_de_contact.html">Formulaire de contact</a></li>
+                    <li class="Footer__menu__item"><a
+                            href="mailto:chloe.bizet@edu.univ-fcomte.fr">chloe.bizet@edu.univ-fcomte.fr</a></li>
+                    <li class="Footer__menu__item"><a href="Formulaire_de_contact.html">Formulaire de contact</a></li>
                 </ul>
             </nav>
             <h3>Me suivre</h3>
-            <img src="projet s1/public/icone/instagram.jpg" alt="instagram">
-            <img src="projet s1/public/icone/image17.jpg" alt="pinterest">
+            <img src="../public/icone/instagram.svg" alt="instagram">
+            <img src="../public/icone/image_17.svg" alt="pinterest">
             <h3>Mention légale</h3>
             <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
-            <a href="http://mmimontbeliard.com/"><img src="projet s1/public/icone/MMI_dut_small_black2.jpg" alt="MMI logo"></a>
+            <a href="http://mmimontbeliard.com/"><img src="../public/icone/MMI_dut_small_black2.svg" alt="MMI logo"></a>
         </footer>
     </body>
 </html>
