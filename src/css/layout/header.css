@@ -9,15 +9,16 @@
 }
 .Main__fondu{
     bottom: 254px;
-    width: 100%;
+    width: 105.5%;
     height: 700px;
     position: relative;
    
 }
 
 .Main__descendre{
-      position: absolute;
-      top: 120px;
+      position: relative;
+      top: 150x;
 }
 .Header__fondvert{
     background-color: var(--couleur-tonique-2);
+}

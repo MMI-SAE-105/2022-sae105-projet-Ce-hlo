@@ -6,8 +6,8 @@
 
 .Footer__fondu{
     width: 105.5%;
-
-    position:absolute;
+    position: relative;
+    top: 35px;
     z-index: 2;
 }
 

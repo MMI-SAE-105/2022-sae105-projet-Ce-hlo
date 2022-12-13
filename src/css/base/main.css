@@ -30,7 +30,11 @@ a:-webkit-any-link {
 
 
 }
-.Main__livre{
+
+.Main__image{
+   margin: 0;
+   width: 105%;
+   height: auto;
    display: block;
    position: relative;
    top: -350px;
@@ -38,9 +42,9 @@ a:-webkit-any-link {
 .article__titre{
    background-color: var(--couleur-tonique-2);
    border-radius: 10px;
-   width: 100%;
+   width: 102%;
    margin: 0;
-   padding: 5%;
+   padding:5px;
    position: relative;
    top: -360px;
 }
