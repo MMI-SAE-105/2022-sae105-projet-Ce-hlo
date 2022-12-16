@@ -1,4 +1,6 @@
-
+* {
+   margin: 0;
+}
 body {
    background: var(--couleur-dominante);
    margin: 0;
@@ -32,8 +34,7 @@ a:-webkit-any-link {
 }
 
 .Main__image{
-   margin: 0;
-   width: 105%;
+   
    height: auto;
    display: block;
    position: relative;
@@ -42,8 +43,6 @@ a:-webkit-any-link {
 .article__titre{
    background-color: var(--couleur-tonique-2);
    border-radius: 10px;
-   width: 102%;
-   margin: 0;
    padding:5px;
    position: relative;
    top: -360px;
@@ -77,6 +76,5 @@ p{
 }
 .vert{
    background-color: var(--couleur-tonique-2);
-   width: 100%;
    border-top-right-radius: 80px;
 }
