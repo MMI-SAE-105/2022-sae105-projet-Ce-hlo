@@ -1,6 +1,4 @@
-* {
-   margin: 0;
-}
+
 body {
    background: var(--couleur-dominante);
    margin: 0;
@@ -36,28 +34,29 @@ a:-webkit-any-link {
 .Main__image{
    
    height: auto;
-   display: block;
-   position: relative;
+   display: block; 
    top: -350px;
 }
 .article__titre{
    background-color: var(--couleur-tonique-2);
    border-radius: 10px;
    padding:5px;
-   position: relative;
+   position: 
    top: -360px;
 }
 .Main__description{
-   position: relative;
+   position: 
    top: -360px;
 }
 .Main__lien{
-      position: relative;
-      top: -360px;
+      position: 
+      margin -360px;
 }
 
 
-
+h1 {
+   margin: 0;
+}
 
 
 h3{
@@ -77,4 +76,6 @@ p{
 .vert{
    background-color: var(--couleur-tonique-2);
    border-top-right-radius: 80px;
+   margin-top: 5px;
+   margin-bottom: 10px;
 }

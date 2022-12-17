@@ -7,13 +7,10 @@
   
 }
 .Main__fondu{
-    bottom: 254px;
-    height: 700px;
-    position: relative;
+    margin-bottom: 200px;
    
 }
 
 .Main__descendre{
-      position: relative;
-      top: 150x;
+      margin-top: 150x;
 }

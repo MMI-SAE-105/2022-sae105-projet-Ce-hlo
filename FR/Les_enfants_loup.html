@@ -6,6 +6,8 @@
         content="width=device-width, inittial-scale=1.0"/>
         <link rel="stylesheet" href="../src/css/style.css">
         <title>Dicta</title>
+        <script src="//unpkg.com/alpinejs" defer></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
     <body>
             <header>
@@ -75,47 +77,89 @@
                 </article>
                 <article>
                     <h3 class="vert">Filmographie de Mamoru Hosada</h3>
-                    <img src="../public/img/digimon _film1.jpg" alt="Digimon,1999">
-                    <img src="../public/img/digimon_ adventure_bokura_ no_uo_gemu1.jpg" alt="Digimon adventure,2000">
-                    <img src="../public/img/_One_Piece_Le Baron_Omatsuri_et l_Île_secrète1.jpg" alt="One piece,2005">
-                    <img src="../public/img/La_Traversée_du temps1.jpg" alt="La traversée du temps,2006">
-                    <img src="../public/img/_Summer_Wars1.jpg" alt="Summerwars,2009">
-                    <img src="../public/img/_Le Garçon_et_la Bête1.jpg" alt="Le garcon et la bete,2015">
-                    <img src="../public/img/Miraï_ma_petite sœur 1.jpg" alt="Mirai ma petite soeur,2018">
-                    <img src="../public/img/_Belle1.jpg" alt="Belle,2021">
-        
+                    <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}" class="{actif:hrefCourant==='#ecran-1'}">
+                                <button @click=" $refs.parent.scrollLeft -=$refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant aria-label=" slide précedant></button><button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"></button>
 
-        
+                                <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0) .id">           
+                                    <div id="Digimon,1999" class="carrousel_ecran">
+                                         <figure>
+                                            <img src="../public/img/digimon _film1.jpg" alt="Digimon,1999">
+                                            <figcaption>Digimon,1999</figcaption>
+                                        </figure>
+                                    </div>
+                   
+                                    <div id="Digimon adventure,2000" class="carrousel_ecran">
+                                        <figure>
+                                            <img src="../public/img/digimon_ adventure_bokura_ no_uo_gemu1.jpg" alt="Digimon adventure,2000">
+                                            <figcaption> DIgimon adventure,2000</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div id="One piece,2005" class="carrousel_ecran">
+                                        <figure>
+                                            <img src="../public/img/_One_Piece_Le_ Baron_Omatsuri_et_l_Île_secrète1.jpg" alt="One piece,2005">
+                                            <figcaption>One piece,2005</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div id="La traversée du temps,2006" class="carrousel_ecran">
+                                        <figure>
+                                            <img src="../public/img/La_Traversée_du temps1.jpg" alt="La traversée du temps,2006">
+                                            <figcaption> La traversée du temps,2006</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div id="Summerwars,2009" class="carrousel_ecran">
+                                        <figure>
+                                            <img src="../public/img/_Summer_Wars1.jpg" alt="Summerwars,2009">
+                                            <figcaption>Summerwaers,2009</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div id="Le garcon et la bête,2015" class="carrousel_ecran">
+                                        <figure>
+                                            <img src="../public/img/_Le Garçon_et_la Bête1.jpg" alt="Le garcon et la bete,2015">
+                                            <figcaption> Le garçon et la bête,2015</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div id="Mirai ma petite soeur,2018" class="carrousel_ecran">
+                                        <figure>
+                                            <img src="../public/img/Miraï_ma_petite_sœur1.jpg" alt="Mirai ma petite soeur,2018">
+                                            <figcaption>Mirai ma petite soeur,2018</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div id="Belle,2021" class="carrousel_ecran">
+                                        <figure>
+                                            <img src="../public/img/_Belle1.jpg" alt="Belle,2021">
+                                            <figcaption>Belle,2021</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>     
                     <a href="https://fr.wikipedia.org/wiki/Mamoru_Hosoda">Biographie de M.Hosada</a> <!--lien vers page wiki de Hosada-->
                 </article>
             </section>
         </main>
         <img class="Footer__fondu" src="../public/img/Rectangle-25.svg" alt="fondu">
         <footer class="Footer">
-            <h2>Menu</h2>
             <nav class="Footer__menu">
-                <ul>
-        
-                    <li class="Footer__menu__item"><a href="Glossaire.html"> Glossaire</a>
+                <h3>Menu</h3>
+                <ul class="Footer__menu__item">
+                    <li><img src="../public/icone/Vector.svg" alt="fleche"><a href="Glossaire.html"> Glossaire</a>
                     <li>
-                    <li class="Footer__menu__item"><a href="Autre_Projets.html">Autre projets</a></li>
+                    <li><img src="../public/icone/Vector.svg" alt="fleche"><a href="Autre_Projets.html"> Autre projets</a></li>
                 </ul>
-            </nav>
-            <h2>Contact</h2>
-            <p>Chloé Bizet Groupe A1</p>
-            <nav class="Footer__menu">
+                <h3>Contact</h3>
+                <p>Chloé Bizet Groupe A1</p>
                 <ul>
                     <li class="Footer__menu__item"><a
                             href="mailto:chloe.bizet@edu.univ-fcomte.fr">chloe.bizet@edu.univ-fcomte.fr</a></li>
-                    <li class="Footer__menu__item"><a href="Formulaire_de_contact.html">Formulaire de contact</a></li>
+                    <li><img src="../public/icone/Vector.svg" alt="fleche" class="Footer__menu__item"><a
+                            href="Formulaire_de_contact.html">Formulaire de contact</a></li>
                 </ul>
+                <h3>Me suivre</h3>
+                <a href="instagram.com" target="_blank"><img src="../public/icone/instagram.svg" alt="instagram"></a>
+                <a href="pinterest.com"> <img src="../public/icone/image_17.svg" alt="pinterest"></a>
+                <h3>Mention légale</h3>
+                <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
+                <a href="http://mmimontbeliard.com/"><img src="../public/icone/MMI_dut_small_black2.svg" alt="MMI logo"></a>
             </nav>
-            <h3>Me suivre</h3>
-            <img src="../public/icone/instagram.svg" alt="instagram">
-            <img src="../public/icone/image_17.svg" alt="pinterest">
-            <h3>Mention légale</h3>
-            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
-            <a href="http://mmimontbeliard.com/"><img src="../public/icone/MMI_dut_small_black2.svg" alt="MMI logo"></a>
         </footer>
         
     </body>

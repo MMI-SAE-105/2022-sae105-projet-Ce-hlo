@@ -1,26 +1,22 @@
 .Footer{
-    
     background: linear-gradient(rgba(223, 144, 144, 1),rgba(172, 203, 134, 1));
     padding-inline: 10px;
-    height: 550px;
-}
-
-.Footer__fondu{
+    height: 530px;
     
-    position: relative;
-    top: 5px;
+}
+.Footer__menu{
+   
+}
+.Footer__fondu{
+display: block;
+    margin-top: 20px;
     z-index: 2;
+}
+h3{
+    margin: 0;
 }
 
 .Footer li{
     list-style-type: none;
 }
 
-.Footer__menu,
-h3,
-.Footer__menu__item,
-a,
-p{
-    position: relative;
-    top: 30px; 
-}
