@@ -1,6 +1,6 @@
 - NOM : Bizet
 - PRÉNOM : Chloé
-- URL du site :
+- URL du site :dicta.ch-loe.fr
 - URL FIGMA :
 
 # Structure de départ pour le projet individuel.
