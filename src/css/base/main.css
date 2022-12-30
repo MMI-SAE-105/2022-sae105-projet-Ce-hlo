@@ -18,7 +18,7 @@ a:-webkit-any-link {
 }
 
 .Main__titre {
-   padding: 50px;
+   padding: 60px;
    font-family: var(--font-cursive);
    text-size-adjust: var(--texte);
 }

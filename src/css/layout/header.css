@@ -19,6 +19,13 @@
 
 }
 
+.Main__lang{
+    height: 30px;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+
 
 
 
