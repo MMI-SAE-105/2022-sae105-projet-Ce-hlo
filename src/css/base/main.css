@@ -84,3 +84,11 @@ li{
 .Main__projet{
    margin-bottom: 30px;
 }
+
+.contact{
+   padding: 30px;
+}
+
+.contact__p{
+   margin: 40px;
+}
