@@ -1,7 +1,7 @@
 - NOM : Bizet
 - PRÉNOM : Chloé
 - URL du site :dicta.ch-loe.fr
-- URL FIGMA :
+- URL FIGMA :https://www.figma.com/file/9w3V9rbHbgf6Hfp3832KvL/Maquettes-projet-individuel-%E2%80%94-Chlo%C3%A9-Bizet?node-id=908%3A792&t=oOKu4shNVm1A8Hjl-1
 
 # Structure de départ pour le projet individuel.
 
