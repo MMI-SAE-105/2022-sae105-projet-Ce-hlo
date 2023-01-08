@@ -87,8 +87,23 @@ li{
 
 .contact{
    padding: 30px;
+   margin: 40px;
 }
 
-.contact__p{
-   margin: 40px;
+.contact__p,
+.contact__n,
+.contact__a,
+.contact__o,
+.contact__m{
+   background-color: var(--couleur-accompagnement);
+   border-radius: 10px;
+   margin-bottom: 30px;  
+   width: 100%;
+   height: 40px;
+}
+
+.contact__m{
+   height: 10em;
+   border-radius: 10px;
+   top: 10px;
 }
